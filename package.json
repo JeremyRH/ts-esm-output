@@ -1,0 +1,25 @@
+{
+  "name": "ts-esm-output",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "typesVersions": {
+    "*": {
+      "*.js": ["./dist/*.d.ts"]
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  }
+}

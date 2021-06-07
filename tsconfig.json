@@ -1,0 +1,21 @@
+
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"isolatedModules": true,
+		"lib": ["DOM", "ESNext"],
+		"module": "ES2020",
+		"moduleResolution": "node",
+		"noEmitOnError": true,
+		"outDir": "dist",
+		"pretty": true,
+		"strict": true,
+		"target": "ES2015"
+	},
+	"include": ["src"]
+}
